@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product001",
+      "cost": 10.0,
+      "quantity": 1000,
+      "locationId" : 1,
+      "familyId" : 1,
+      "locationid":2 
+    },
+    {
+      "id": 2,
+      "name": "Product002",
+      "cost": 20.0,
+      "quantity": 2000,
+      "locationId" : 1,
+      "familyId" : 2,
+      "locationid":2 
+    },   
+    {
+      "id": 3,
+      "name": "Product003",
+      "cost": 30.0,
+      "quantity": 3000,
+      "locationId" : 3,
+      "familyId" : 2,
+      "locationid":1  
+    },
+    {
+      "id": 4,
+      "name": "Product004",
+      "cost": 40.0,
+      "quantity": 4000,
+      "locationId" : 2,
+      "familyId" : 3,
+      "locationid":1
+    }
+  ],
+  "locations":[
+    {
+      "id": 1,
+      "name": "Location001"
+    },
+    {
+      "id": 2,
+      "name": "Location002"
+    },
+    {
+      "id": 3,
+      "name": "Location003"
+    }
+  ],
+  "families":[
+    {
+      "id": 1,
+      "name": "FM001"
+    },
+    {
+      "id": 2,
+      "name": "FM002"
+    },
+    {
+      "id": 3,
+      "name": "FM003"
+    }
+  ],
+  "transactions":[
+    {
+      "id": 1,
+      "cost":11,
+      "quantity":10,
+      "productId":1
+    },
+    {
+      "id": 2,
+      "cost":12,
+      "quantity":100,
+      "productId":2
+    },    
+    {
+      "id": 3,
+      "cost":15,
+      "quantity":101,
+      "productId":3
+    }  
+  ],
+  "authors":[
+    {
+      "id": 1,
+      "first_name": "Daniele",
+      "last_name": "Ghidoli"      
+    },
+    {
+      "id": 2,
+      "first_name": "Rolland",
+      "last_name": "Luo"
+    }
+  ],
+  "books":[
+    {
+      "id": 10,
+      "title": "Awesome book",
+      "author_id": 1,
+      "editor_id": 30
+    },
+    {
+      "id": 11,
+      "title": "Angular 6",
+      "author_id": 2,
+      "editor_id": 30
+    },
+    {
+      "id": 12,
+      "title": "C# 6",
+      "author_id": 2,
+      "editor_id": 32
+    }
+  ],
+  "editors": [
+    {
+      "id": 30,
+      "name":"XiaoLin"
+    },
+    {
+      "id": 31,
+      "name":"Wei"
+    },
+    {
+      "id": 32,
+      "name":"Mike"
+    }
+  ]
+}
